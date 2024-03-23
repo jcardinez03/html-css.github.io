@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Control</title>
+</head>
+<body>
+    <form action="" method="post">
+        <!-- text box -->
+    <input type="text" name="" id="" placeholder="First Name" required>
+    <hr>
+    <!-- Number Box -->
+    <input type="number" name="number" id="number" max="10" min="5" placeholder="Min 5, Max 10">
+    <hr>
+    <!-- Check Box -->
+    <p>Please select food here:</p>
+    <input type="checkbox" name="food" id="ramen">
+    <label for="ramen">Ramen</label>
+    
+    <input type="checkbox" name="food" id="sushi">
+    <label for="sushi">Sushi</label>
+
+    <input type="checkbox" name="food" id="curry">
+    <label for="curry">Curry</label>
+
+    <hr>
+    <!-- Drop Down List -->
+    <label for="device">What is your device?</label>
+    <select name="device" id="device">
+        <option value="iphone">iPhone</option>
+        <option value="ipad">iPad</option>
+        <option value="samsung">Samsung</option>
+    </select>
+    <hr>
+    <!-- Multiple Select -->
+    <label for="car">Select your car</label>
+    <select name="car" id="car" multiple>
+        <option value="toyota">Toyota</option>
+        <option value="nissan">Nissan</option>
+        <option value="honda">Honda</option>
+    </select>
+    <hr>
+    <!-- File Input Box -->
+    <input type="file" name="file" id="file">
+    <hr>
+    <!-- Submit button -->
+    <input type="submit" value="Save">
+    <button type="submit" name="submit">Submit</button>
+
+    <hr>
+    <!-- SAMPLE  PLACEHOLDER -->
+    <label for="full-name">Full Name:</label>
+    <input type="text" name="full_name" id="full-name" placeholder="John Doe">
+    </form>
+</body>
+</html>
